@@ -1,0 +1,20 @@
+{
+  "name": "design-vault",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Repositorio local de referencias de diseño web, pensado para que Claude lo use como fuente de inspiración.",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "ingest": "node scripts/ingest.js",
+    "pending": "node scripts/pending.js",
+    "apply": "node scripts/apply.js",
+    "catalog": "node scripts/catalog.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "sharp": "^0.34.3"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "c74c5c33fc83664caa7c4147deebc5a2",
+  "title": "Insuria — seguro de salud",
+  "description": "hero immersive",
+  "url": "",
+  "category": "landing-saas",
+  "styles": [
+    "fotografico",
+    "glass"
+  ],
+  "tags": [
+    "seguros",
+    "azul-cielo",
+    "stats-glass",
+    "familia",
+    "hero-inmersivo"
+  ],
+  "palette": [
+    "#1e79c3",
+    "#83bdf3",
+    "#c9d7e3",
+    "#599ad3",
+    "#4879a7",
+    "#385876"
+  ],
+  "typography": "sans geométrica bold blanca",
+  "layout": "hero con foto recortada sobre azul cielo y 3 stats en cards translúcidas abajo a la derecha",
+  "standout": "Foto de familia recortada sobre un azul plano, con las métricas en pequeñas cards de vidrio flotando encima.",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 752,
+      "height": 564
+    }
+  ],
+  "createdAt": "2026-10-18T20:24:28.796Z",
+  "updatedAt": "2026-10-18T20:47:23.830Z"
+}

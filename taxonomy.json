@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "id": "landing-saas",
+      "label": "Landing / SaaS"
+    },
+    {
+      "id": "portfolio",
+      "label": "Portfolio"
+    },
+    {
+      "id": "agencia-estudio",
+      "label": "Agencia / Estudio"
+    },
+    {
+      "id": "ecommerce",
+      "label": "E-commerce"
+    },
+    {
+      "id": "editorial",
+      "label": "Editorial / Blog"
+    },
+    {
+      "id": "dashboard-app",
+      "label": "Dashboard / App"
+    },
+    {
+      "id": "producto",
+      "label": "Producto físico"
+    },
+    {
+      "id": "hospitality",
+      "label": "Restaurante / Hotel / Viajes"
+    },
+    {
+      "id": "evento",
+      "label": "Evento / Campaña / Lanzamiento"
+    },
+    {
+      "id": "docs",
+      "label": "Documentación"
+    },
+    {
+      "id": "personal",
+      "label": "Personal / CV"
+    },
+    {
+      "id": "branding",
+      "label": "Branding / Identidad"
+    },
+    {
+      "id": "otro",
+      "label": "Otro"
+    }
+  ],
+  "styles": [
+    "minimal",
+    "brutalist",
+    "editorial",
+    "swiss-grid",
+    "maximalist",
+    "retro",
+    "y2k",
+    "glass",
+    "3d-webgl",
+    "ilustrado",
+    "dark",
+    "monocromo",
+    "colorido",
+    "luxury",
+    "playful",
+    "organico",
+    "tipografico",
+    "corporate",
+    "experimental",
+    "motion-heavy",
+    "fotografico",
+    "bento"
+  ]
+}

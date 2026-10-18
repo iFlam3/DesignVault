@@ -1,0 +1,41 @@
+{
+  "slug": "4e4a1b32f495ff34ab3364187ab5cc80",
+  "title": "Drinko — cafetería",
+  "description": "",
+  "url": "",
+  "category": "hospitality",
+  "styles": [
+    "fotografico",
+    "playful"
+  ],
+  "tags": [
+    "menu-con-filtros",
+    "script-acento",
+    "cafe",
+    "rosa",
+    "carrusel-productos"
+  ],
+  "palette": [
+    "#fefdfc",
+    "#fececd",
+    "#b8a689",
+    "#57442a",
+    "#d4c4a8",
+    "#9b8366"
+  ],
+  "typography": "sans extendida black en blanco ('ORDER COFFEE') + script como acento",
+  "layout": "hero foto de producto con titular partido a ambos lados del vaso; menú con chips de filtro y grid 4×2",
+  "standout": "Titular partido en dos mitades a ambos lados del producto, y un script pequeño ('Welcome', 'drinks') debajo de cada titular.",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 736,
+      "height": 1464
+    }
+  ],
+  "createdAt": "2026-10-18T20:34:12.487Z",
+  "updatedAt": "2026-10-18T20:47:23.821Z"
+}

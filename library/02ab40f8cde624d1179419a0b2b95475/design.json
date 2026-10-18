@@ -1,0 +1,42 @@
+{
+  "slug": "02ab40f8cde624d1179419a0b2b95475",
+  "title": "Collection Artic 01 — moda técnica",
+  "description": "",
+  "url": "",
+  "category": "ecommerce",
+  "styles": [
+    "monocromo",
+    "fotografico",
+    "experimental"
+  ],
+  "tags": [
+    "moda",
+    "graffiti",
+    "azul-hielo",
+    "montana",
+    "lanzamiento-coleccion"
+  ],
+  "palette": [
+    "#4a667b",
+    "#6a8499",
+    "#9ab5c8",
+    "#28465b",
+    "#bad5e8",
+    "#0f1e2b"
+  ],
+  "typography": "grotesca condensada bold en mayúsculas + mono diminuta en mayúsculas",
+  "layout": "todo en una sola tinta azul hielo; hero de producto, grid de looks, cierre con montaña y graffiti",
+  "standout": "Toda la página en un único azul hielo (fotos incluidas) con graffiti difuminado detrás del producto.",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 736,
+      "height": 1286
+    }
+  ],
+  "createdAt": "2026-10-18T20:29:57.082Z",
+  "updatedAt": "2026-10-18T20:47:23.827Z"
+}

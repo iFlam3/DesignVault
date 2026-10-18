@@ -1,0 +1,41 @@
+{
+  "slug": "f613a2da77b80416f24915d34390b598",
+  "title": "Mafia — lanzamiento de videojuego",
+  "description": "",
+  "url": "",
+  "category": "evento",
+  "styles": [
+    "monocromo",
+    "tipografico",
+    "fotografico"
+  ],
+  "tags": [
+    "videojuego",
+    "titular-detras-de-figura",
+    "ediciones-precio",
+    "noir"
+  ],
+  "palette": [
+    "#171717",
+    "#ebe7e4",
+    "#bab9b6",
+    "#797877",
+    "#373736",
+    "#989795"
+  ],
+  "typography": "grotesca extra-bold a todo el ancho ('MAFIA') + sans pequeña en mayúsculas",
+  "layout": "hero crema con titular gigante y figura delante; banda negra de features; ediciones en 4 cards",
+  "standout": "La palabra MAFIA a todo el ancho con el personaje caminando por delante de las letras.",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 736,
+      "height": 1233
+    }
+  ],
+  "createdAt": "2026-10-18T20:29:38.745Z",
+  "updatedAt": "2026-10-18T20:47:23.827Z"
+}

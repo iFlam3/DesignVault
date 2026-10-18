@@ -1,0 +1,41 @@
+{
+  "slug": "8f3a7fc39ddf466e1b8f6d1bdeacf876",
+  "title": "Yamaha Aerox — producto moto",
+  "description": "Sitio de producto para motos (más catálogo/concesionario que ecommerce).",
+  "url": "",
+  "category": "producto",
+  "styles": [
+    "dark",
+    "fotografico"
+  ],
+  "tags": [
+    "motos",
+    "ano-gigante-fondo",
+    "slider-modelos",
+    "verde-petroleo",
+    "dorado"
+  ],
+  "palette": [
+    "#14181b",
+    "#353738",
+    "#475859",
+    "#747679",
+    "#a5a7aa",
+    "#55a6b6"
+  ],
+  "typography": "sans extendida bold en mayúsculas, acento dorado",
+  "layout": "slider de producto: moto a la izquierda, nombre y precio a la derecha, prev/next con el nombre del modelo",
+  "standout": "Año '2022' gigante y translúcido detrás de la moto; los botones prev/next muestran el nombre del modelo siguiente.",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 1152,
+      "height": 2048
+    }
+  ],
+  "createdAt": "2026-10-18T20:23:17.716Z",
+  "updatedAt": "2026-10-18T20:47:23.831Z"
+}

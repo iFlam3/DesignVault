@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design Vault</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Hanken+Grotesk:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div>
+      <p class="eyebrow">Design Vault <span id="count"></span></p>
+      <h1>Archivo de <em>referencias</em></h1>
+    </div>
+    <button class="btn btn-ink" id="open-upload">Añadir diseño</button>
+  </header>
+
+  <nav class="filters" aria-label="Filtros">
+    <input type="search" id="q" placeholder="Buscar título, notas, etiquetas…" autocomplete="off">
+    <div class="tabs" id="categories" role="tablist"></div>
+    <div class="filter-row">
+      <select id="style-filter" aria-label="Estilo"><option value="">Todos los estilos</option></select>
+      <label class="toggle"><input type="checkbox" id="only-pending"> Solo pendientes</label>
+    </div>
+  </nav>
+
+  <main>
+    <ol class="grid" id="grid"></ol>
+    <div class="empty" id="empty" hidden>
+      <p class="empty-title">Nada por aquí todavía.</p>
+      <p>Arrastra capturas a <code>inbox/</code> y ejecuta <code>npm run ingest</code>, o usa <strong>Añadir diseño</strong>.</p>
+    </div>
+  </main>
+
+  <!-- Detalle / edición -->
+  <dialog id="detail" class="sheet">
+    <form method="dialog" class="sheet-close"><button aria-label="Cerrar">Cerrar ✕</button></form>
+    <div class="detail-body">
+      <section class="shots" id="shots"></section>
+      <form class="panel" id="edit-form">
+        <p class="eyebrow" id="detail-meta"></p>
+        <label>Título<input name="title" required></label>
+        <label>URL<input name="url" type="url" placeholder="https://"></label>
+        <label>Descripción<textarea name="description" rows="3"></textarea></label>
+        <div class="two">
+          <label>Categoría<select name="category" data-categories></select></label>
+          <label>Estado
+            <select name="status">
+              <option value="pending">Pendiente de análisis</option>
+              <option value="classified">Clasificado</option>
+            </select>
+          </label>
+        </div>
+        <fieldset><legend>Estilos</legend><div class="chips" data-styles></div></fieldset>
+        <label>Etiquetas <small>separadas por comas</small><input name="tags"></label>
+        <label>Lo que lo hace especial<textarea name="standout" rows="2" placeholder="El movimiento concreto que vale la pena robar"></textarea></label>
+        <label>Tipografía<input name="typography"></label>
+        <label>Layout<input name="layout"></label>
+        <div class="palette-edit" id="palette"></div>
+        <div class="actions">
+          <button class="btn btn-ink" type="submit">Guardar</button>
+          <label class="btn btn-line">Añadir imágenes<input type="file" id="add-images" accept="image/*" multiple hidden></label>
+          <button class="btn btn-danger" type="button" id="delete">Eliminar</button>
+        </div>
+      </form>
+    </div>
+  </dialog>
+
+  <!-- Subida -->
+  <dialog id="upload" class="sheet sheet-narrow">
+    <form method="dialog" class="sheet-close"><button aria-label="Cerrar">Cerrar ✕</button></form>
+    <form class="panel" id="upload-form">
+      <h2>Nuevo diseño</h2>
+      <label class="drop" id="drop">
+        <input type="file" name="images" accept="image/*" multiple required>
+        <span id="drop-text">Suelta capturas aquí o haz clic</span>
+      </label>
+      <label>Título<input name="title" required></label>
+      <label>URL<input name="url" type="url" placeholder="https://"></label>
+      <label>Notas <small>qué te gustó — ayuda a Claude a clasificar</small><textarea name="description" rows="3"></textarea></label>
+      <label>Categoría <small>opcional</small><select name="category" data-categories></select></label>
+      <fieldset><legend>Estilos <small>opcional</small></legend><div class="chips" data-styles></div></fieldset>
+      <div class="actions">
+        <button class="btn btn-ink" type="submit">Guardar en el archivo</button>
+      </div>
+      <p class="hint">Queda como <strong>pendiente</strong>. Luego pide a Claude “clasifica los pendientes”.</p>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
