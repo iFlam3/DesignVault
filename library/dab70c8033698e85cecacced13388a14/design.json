@@ -1,0 +1,43 @@
+{
+  "slug": "dab70c8033698e85cecacced13388a14",
+  "title": "Robert Borghesi — creative coder",
+  "description": "",
+  "url": "",
+  "category": "portfolio",
+  "styles": [
+    "experimental",
+    "tipografico",
+    "retro",
+    "dark"
+  ],
+  "tags": [
+    "pixel-art",
+    "3d-webgl",
+    "nombre-gigante",
+    "lista-proyectos",
+    "awwwards"
+  ],
+  "palette": [
+    "#2a2a2a",
+    "#f9f9f9",
+    "#a8a8a8",
+    "#013874",
+    "#878787",
+    "#484848"
+  ],
+  "typography": "grotesca condensada heavy a todo el ancho (el nombre cortado por los bordes) + sans pequeña",
+  "layout": "nombre gigante a sangre, sprites pixelados flotando por encima, lista de proyectos en tabla con //año",
+  "standout": "Sprites pixelados 3D enormes flotando por delante del nombre gigante, sobre una lista de proyectos en tabla sobria.",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 1100,
+      "height": 770
+    }
+  ],
+  "createdAt": "2026-10-19T01:10:43.496Z",
+  "updatedAt": "2026-10-19T01:20:31.411Z"
+}

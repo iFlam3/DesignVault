@@ -1,0 +1,42 @@
+{
+  "slug": "1f862bef2a4b411353162ae5333e8305",
+  "title": "Urban Wild Studio",
+  "description": "",
+  "url": "",
+  "category": "agencia-estudio",
+  "styles": [
+    "colorido",
+    "playful",
+    "ilustrado"
+  ],
+  "tags": [
+    "linea-ondulada",
+    "verde-bosque",
+    "crema",
+    "logo-custom",
+    "pill-cta"
+  ],
+  "palette": [
+    "#b3d7e7",
+    "#f3cce7",
+    "#046248",
+    "#8bbcc3",
+    "#050303",
+    "#789695"
+  ],
+  "typography": "grotesca extra-bold en mayúsculas verde oscuro + serif itálica fina para los labels ('What we do')",
+  "layout": "hero crema con titular a la izquierda; una cinta multicolor ondulada baja y cruza hasta la sección verde",
+  "standout": "Una cinta ondulada de 6 colores que pasa por encima del corte entre secciones y las une.",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 1080,
+      "height": 2078
+    }
+  ],
+  "createdAt": "2026-10-19T01:13:58.628Z",
+  "updatedAt": "2026-10-19T01:20:31.409Z"
+}

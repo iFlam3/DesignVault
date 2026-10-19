@@ -1,0 +1,40 @@
+{
+  "slug": "7f155a82f958f5ad77c03d03f8407c7f86a43eca-2880x1820",
+  "title": "Stripe — home",
+  "description": "Neumorfism",
+  "url": "",
+  "category": "landing-saas",
+  "styles": [
+    "colorido",
+    "corporate"
+  ],
+  "tags": [
+    "gradiente-diagonal",
+    "mockup-producto",
+    "checkout",
+    "titular-degradado"
+  ],
+  "palette": [
+    "#fcfcfd",
+    "#d4d5da",
+    "#aa67e7",
+    "#95d9f9",
+    "#fdc69a",
+    "#cb67a9"
+  ],
+  "typography": "sans grotesca bold muy grande con degradado de color dentro de las letras",
+  "layout": "titular enorme a la izquierda; checkout móvil y dashboard reales a la derecha; gradiente cortado en diagonal",
+  "standout": "Gradiente de colores cortado en diagonal que pasa por detrás del titular, y el producto real (checkout + dashboard) como imagen del hero. (Nota: no es neumorfismo.)",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 1600,
+      "height": 1011
+    }
+  ],
+  "createdAt": "2026-10-19T01:07:02.556Z",
+  "updatedAt": "2026-10-19T01:20:31.414Z"
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "dc0e25923b5b5836c330aebb4b311ce8",
+  "title": "Design Signals — póster editorial",
+  "description": "Neobrutalism",
+  "url": "",
+  "category": "editorial",
+  "styles": [
+    "brutalist",
+    "swiss-grid",
+    "tipografico"
+  ],
+  "tags": [
+    "poster",
+    "rojo-negro-crema",
+    "lista-numerada",
+    "grid-visible",
+    "flecha"
+  ],
+  "palette": [
+    "#040404",
+    "#fefbf5",
+    "#494847",
+    "#272626",
+    "#bcb9b4",
+    "#dbd7d2"
+  ],
+  "typography": "grotesca ultra-condensada gigante en 2 palabras a todo el ancho + mono pequeña",
+  "layout": "titular a todo el ancho partido entre banda negra y crema; grid inferior de celdas con bordes",
+  "standout": "Titular ultra-condensado que llena el ancho y cruza el corte entre negro y crema, con un único bloque rojo y una flecha como CTA.",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 736,
+      "height": 1104
+    }
+  ],
+  "createdAt": "2026-10-19T01:09:02.298Z",
+  "updatedAt": "2026-10-19T01:20:31.413Z"
+}

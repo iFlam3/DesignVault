@@ -1,0 +1,43 @@
+{
+  "slug": "a65aff1c515b898ef19575dcee52e075",
+  "title": "Retro Forever — tienda 8‑bit",
+  "description": "8 bit retro shop",
+  "url": "",
+  "category": "ecommerce",
+  "styles": [
+    "retro",
+    "playful",
+    "tipografico"
+  ],
+  "tags": [
+    "8-bit",
+    "hud-videojuego",
+    "timeline",
+    "sprites",
+    "amarillo-crema",
+    "sombra-dura"
+  ],
+  "palette": [
+    "#fdf9e6",
+    "#fcd85c",
+    "#ddd5c4",
+    "#b7ac98",
+    "#78766a",
+    "#c5a858"
+  ],
+  "typography": "pixel font bold gigante + mono pequeña",
+  "layout": "secciones como ventanas con sombra dura desplazada; HUD arriba (vidas, LEVEL 5, SCORE); sprites de naves en los márgenes",
+  "standout": "Barra de navegación convertida en HUD de videojuego (corazones de vida, nivel, puntuación) y sprites de naves volando por los márgenes.",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 600,
+      "height": 1253
+    }
+  ],
+  "createdAt": "2026-10-19T01:11:18.257Z",
+  "updatedAt": "2026-10-19T01:20:31.410Z"
+}

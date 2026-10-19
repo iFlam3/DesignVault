@@ -1,0 +1,43 @@
+{
+  "slug": "5c7f99f6cf5cfbc9f9f79c940ad8a70401368a01-2880x1820",
+  "title": "The Outline — menú experimental",
+  "description": "Navegación experimental",
+  "url": "",
+  "category": "editorial",
+  "styles": [
+    "experimental",
+    "maximalist",
+    "colorido",
+    "tipografico"
+  ],
+  "tags": [
+    "menu-overlay",
+    "stickers-recortados",
+    "rojo-coral",
+    "bandas-texto",
+    "medio-digital"
+  ],
+  "palette": [
+    "#fe294d",
+    "#041423",
+    "#622c2f",
+    "#380a13",
+    "#fcb9c5",
+    "#fefafb"
+  ],
+  "typography": "grotesca bold en mayúsculas dentro de bandas negras + serif display en los artículos",
+  "layout": "el menú se abre como panel rojo sobre media pantalla; secciones como bandas de texto apiladas",
+  "standout": "Menú a pantalla partida con las secciones en bandas tipográficas y objetos recortados absurdos (teléfono, doge, taza) flotando alrededor.",
+  "status": "classified",
+  "images": [
+    {
+      "file": "01.webp",
+      "thumb": "01.thumb.webp",
+      "ai": "01.ai.webp",
+      "width": 1600,
+      "height": 1011
+    }
+  ],
+  "createdAt": "2026-10-19T01:06:27.747Z",
+  "updatedAt": "2026-10-19T01:20:31.416Z"
+}
